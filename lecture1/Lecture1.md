@@ -9,7 +9,7 @@ This lecture is a gentle introduction to Carto, a web mapping platform that we w
 5. [Global water detection](http://water.earthgenome.org) (1999-2012)
 6. [Twitter reaction to Super Bowl](http://srogers.cartodb.com/viz/1b9b0670-8d15-11e3-8ddf-0edd25b1ac90/embed_map) (February 2, 2014)
 7. [Tweets mentioning "sunrise"](http://cartodb.s3.amazonaws.com/static_vizz/sunrise.html?title=true&description=true) (April 6, 2014)
-8. [Alcatraz escape](https://siggyf.cartodb.com/viz/a3f7aec6-788b-11e4-a565-0e853d047bba/embed_map) (June 11, 1962)
+8. [Alcatraz escape](https://carto.com/blog/dev-interview-fedor/) (June 11, 1962)
 
 ## Guided tutorial: get started with styling
 
