@@ -29,12 +29,11 @@ This lecture is a gentle introduction to Carto, a web mapping platform that we w
 
 3. **Create the map**. Click the `CREATE MAP` button.
 
-4. **Style the map**.  Select ANIMATED as the aggregation option for the active fires later, and then select Heatmap as the animated type.  Ensure that the animation occurs.  We will review the additional options in class.
+4. **Style the map**.  Select ANIMATED as the aggregation option for the active fires later, and then select Heatmap as the animated type.  Ensure that the animation occurs, and that the size makes sense.  We will review the additional options in class.
 
+## Account Hygiene
 
-## Clean up
-
-When you are finished, erase the datasets and maps.  We are using the trial version which has a 250MB storage limit.  You can delete the maps by deleting the datasets.  Click on the datasets at `<username>.carto.com/dashboard/datasets`.
+Go to `<username>.carto.com/dashboard/dashboard` to view all of your maps. Switch to data sets to view the data sets. If you start running out of space in your account, you can delete the maps and data sets from these views.
 
 ## What do you want to learn?
 
@@ -42,10 +41,10 @@ The topic of web mapping is broad.  We will cover the core skills for functional
 
 Here are a few options for the **methods**:
 
-1. Spatial statistics
+1. Satellite image processing
 2. Data formats
 3. API calls
-4. Spatial filtering queries (coding)
+4. Spatial filtering queries (SQL coding)
 
 Here are a few options for the **topics**:
 
@@ -53,5 +52,3 @@ Here are a few options for the **topics**:
 2. Politics
 3. Journalism
 4. Finance/Economics
-
-
