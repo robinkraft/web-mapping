@@ -28,8 +28,4 @@ _This is a rough course outline that is subject to change as the semester advanc
 
 6. **NO CLASS** (_February 26_)
 
-7. **Presenting final projects; special topics; wrap up** (_March 5_) Quick introduction to publishing maps on a Google Site and distance calculations.
-
-8. **Special topics in web mappong** (_May 10_) Student-chosen topics in web mapping.
-
-### People and interests
+7. **Presenting final projects; special topics; wrap up** (_March 5_)
