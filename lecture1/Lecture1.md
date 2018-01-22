@@ -13,23 +13,23 @@ This lecture is a gentle introduction to Carto, a web mapping platform that we w
 
 ## Guided tutorial: get started with styling
 
-1. **Get the data**.  Navigate to the [Harvard Election Data Archive](https://dataverse.harvard.edu/dataverse/eda) and download [`NH_Shapefile.zip`](https://dl.dropboxusercontent.com/u/5365589/NH_Shapefile.zip), also found [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/16219).  Click the link and accept the terms of use to save it locally.  The compressed archive (the `.zip` file) has all of the geospatial and metadata associated with a shapefile.
+1. **Get the data**.  Navigate to the [Harvard Election Data Archive](https://dataverse.harvard.edu/dataverse/eda) and download [`NH_Shapefile.zip`](https://www.dropbox.com/s/wzwqi70xg6qcbwi/NH_Shapefile.zip?dl=1), also found [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/16219).  Click the link and accept the terms of use to save it locally.  The compressed archive (the `.zip` file) has all of the geospatial and metadata associated with a shapefile. You can check out [this readme file](https://www.dropbox.com/s/h2aliissb2941f3/NH-notes.rtf?dl=0) for info about the files in the data set.
 
-2. **Sign up for CartoDB**.  Navigate to [carto.com](http://www.carto.com).  Click `Sign Up`. (*Note: It may be worth investing in a password manager, like [1Password](https://agilebits.com/onepassword).*)
+2. **Sign up for CartoDB**.  Navigate to [carto.com](http://www.carto.com).  Click `Sign Up`. (*Note: It may be worth investing in a password manager, like [1Password](https://1password.com/).*)
 
 3. **Connect the dataset**.  Follow the instructions found [here](http://docs.cartodb.com/cartodb-editor/datasets/#connect-dataset) to connect the `NH_Shapefile.zip` dataset.
 
-4. **Style the map**.  The objective is to communicate information that is distributed spatially.  How would we communicate the counties where Democrats constituted more than 50% of the vote in 2008?  What about those counties that are relatively small (with respect to land area)?  
+4. **Style the map**.  The objective is to communicate information that is distributed spatially.  How would we communicate the counties where Democrats constituted more than 50% of the vote in 2008?  What about those counties that are relatively small (with respect to land area)?
 
 ## Guided tutorial: get started with animated maps
 
-1. **Get the data**.  Download active fires from [this repository](https://github.com/danhammer/web-mapping/blob/master/lecture1/active_fires.csv), and add it to Carto as a dataset. Better yet, connect the dataset rather than uploading it from your computer.
+1. **Get the data**.  Download active fires from [this repository](https://github.com/robinkraft/web-mapping/blob/master/lecture1/active_fires.csv), and add it to Carto as a dataset. Better yet, connect the dataset rather than uploading it from your computer.
 
 2. **Examine the data**. What is the date range of this dataset? (Use the sorting options in the dataset view. We will write SQL queries later to directly answer this questions.) What is the geographic extent?
 
 3. **Create the map**. Click the `CREATE MAP` button.
 
-4. **Style the map**.  Select ANIMATED as the aggregation option for the active fires later, and then select Heatmap as the animated type.  Ensure that the animation occurs on the  We will review the additional options in class.
+4. **Style the map**.  Select ANIMATED as the aggregation option for the active fires later, and then select Heatmap as the animated type.  Ensure that the animation occurs.  We will review the additional options in class.
 
 
 ## Clean up
