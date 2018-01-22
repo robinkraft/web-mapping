@@ -4,7 +4,7 @@ This code repository serves as the course website for ENVM-680 Spring 2018, **We
 ----
 
 - **Course meeting**: Room HR104, Mondays 6:30pm PT - 9:30pm PT
-- **Instructor information**: Dan Hammer ([rkraft4@gmail.com](mailto:rkraft4@gmail.com)) Adjunct professor, Department of Environmental Science.
+- **Instructor information**: Robin Oliva-Kraft ([rkraft4@gmail.com](mailto:rkraft4@gmail.com)) Adjunct professor, Department of Environmental Science.
 - **Office hours**: By appointment
 - **Course texts**: There is no book required for this class. All course material is hosted online, mainly within this repository.
 - **Software**: The primary software is web-based and no license is required for course access.  Data files for classroom exercises will be available in this repository.
