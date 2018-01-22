@@ -1,15 +1,15 @@
-This code repository serves as the course website for ENVM-680 Spring 2017, **Web Mapping**.  The class will provide students with a working knowledge of web-based mapping for a range of applications, including mapping election results, animating the geographic spread of disease, and styling maps of environmental information.  We will rely on the open-source [Carto](http://www.carto.com) platform.  Students will have the opportunity to create maps and learn about programmatic ways to query large-scale geospatial data, embed maps in blogs, and other modern techniques for analyzing and sharing geospatial information.  
+This code repository serves as the course website for ENVM-680 Spring 2018, **Web-based geospatial analysis**.  The class will provide students with a working knowledge of web-based mapping for a range of applications.  We will rely on the [Carto](http://www.carto.com) platform.  Students will have the opportunity to create maps and learn about programmatic ways to query large-scale geospatial data, embed maps in blogs, and other modern techniques for analyzing and sharing geospatial information.  
 
 #### Course information
 ----
 
-- **Course meeting**: Room HR104, Wednesdays 6:30pm PT - 9:30pm PT
-- **Instructor information**: Dan Hammer ([dan@earthgenome.org](mailto:dan@earthgenome.org)) Adjunct professor, Department of Environmental Science.  Zoom. 
+- **Course meeting**: Room HR104, Mondays 6:30pm PT - 9:30pm PT
+- **Instructor information**: Dan Hammer ([rkraft4@gmail.com](mailto:rkraft4@gmail.com)) Adjunct professor, Department of Environmental Science.
 - **Office hours**: By appointment
 - **Course texts**: There is no book required for this class. All course material is hosted online, mainly within this repository.
-- **Software**: The primary software is web-based and no license is required for course access.  Some courses will use Excel, just to demonstrate interoperability, but access to Excel is not required for the course.  The data files will be provided by the instructor.
-- **Assignments**: Course readings and exercises will be assigned after the associated lecture. I highly suggest you read the material and complete the computer assignments for you own benefit, but only a few, selected assignments will be submitted for a grade.
-- **Evaluation**: A letter grade will be assessed at the end of the course, based on course participation (10%), four problem sets (60%), and a final project (30%).
+- **Software**: The primary software is web-based and no license is required for course access.  Data files for classroom exercises will be available in this repository.
+- **Assignments**: Course readings and exercises will be assigned after the associated lecture.
+- **Evaluation**: A letter grade will be assessed at the end of the course, based on course participation (10%), four weekly assignments (60%), and a final project (30%).
 - **Academic honesty**: The University of San Francisco expects the highest standards of academic honesty and integrity. This precludes engaging in, causing, or benefiting from any aspects of cheating on assignments or examinations, plagiarism (intentionally or knowingly representing the words or ideas of another as one’s own in any academic exercise), forgery, multiple submissions of the same paper, or any other such activities are not in accord with professional ethics and behavior. Any assignment found not to be in the student's own words will be marked zero.
 
 #### Course sequence
@@ -33,19 +33,3 @@ _This is a rough course outline that is subject to change as the semester advanc
 8. **Special topics in web mappong** (_May 10_) Student-chosen topics in web mapping.
 
 ### People and interests
-
-- **Dan** natural capital, scaling environmental impact through greater information
-- **Elden** Fish and Wildlife Service, remote sensing and 3D modeling, autonomous driving networks
-- **John** restoration ecology
-- **Holden** renewable energy, developing renewable energy infrastructure in CA, biofuel
-- **Emily** risk assessment of endocrine disruptors, water quality and pollutants
-- **Ethan** electric vehicle adoption, transportation.
-- **OJ** Nonprofits, environmental projects in collaboration with companies; sustainable mobility, traffic; 
-- **Bernadette** groundwater resource; groundwater vulnerability assessment in Salinas Valley
-- **Radhika** SERVIR Mekong, land use and land change; waste management, island nations
-- **Jeremy** charging stations, how accessible to amenities; distances between locations.
-- **Erin** solar company in oakland, solar system design; community solar and storage in hawaii. 
-- **Evan** forest quality for the America Pika persistence (like a hamster) which is sensitive to climate change.
-- **Cassie** air resources board, gis analysis of survey data for seasonal usage pattern of vehicles. Holes in CA smog check program.  
-- **Jeno** how mapping can be used for public policy.  Targeting voters for campaign.  Heat map.  
-
