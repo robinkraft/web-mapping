@@ -20,9 +20,9 @@ _This is a rough course outline that is subject to change as the semester advanc
 
 2. **Your map is a product; SQL & APIs** (_January 29_)  Product thinking and map design. Introduction to SQL scripts within the Carto editor.  Views onto synced tables for real-time maps of stream flow data.  Assignment 2 issued.
 
-3. **Multiple tables** (_April 5_) Find points within polygons and multipolygons from multiple tables. Intermediate SQL queries relying on PostGIS.  Assignment 3 issued.
+3. **Multiple tables** (_February 5_) Find points within polygons and multipolygons from multiple tables. Intermediate SQL queries relying on PostGIS.  Assignment 3 issued.
 
-4. **Analysis** (_April 12_)  Creating a simple map of points, simple Category maps with icons, drawing a circle from a point and radius, counting points in polygons. Assignment 4 issued.
+4. **Analysis** (_February 12_)  Creating a simple map of points, simple Category maps with icons, drawing a circle from a point and radius, counting points in polygons. Assignment 4 issued.
 
 5. **Guest speakers** (_February 19_) Guest speakers from NASA/Earth Genome, Planet, Apple Maps, Mapbox. Final list TBD.
 
