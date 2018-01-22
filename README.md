@@ -18,26 +18,28 @@ This code repository serves as the course website for ENVM-680 Spring 2018, **We
 ----
 _This is a rough course outline that is subject to change as the semester advances.  The lectures and this sequence may be updated._
 
-1. **Basics** (_January 22_)
+1. **Basics** (_January 22_)  
 Theory: What are web maps and how do they work?  
 Practice: Getting started with guided tutorials.  Create static and dynamic maps.  Introduction to in-browser SQL scripts.  Logistics and planning.  
 Assignment 1 issued.
 
-2. **Your map is a product; SQL & APIs** (_January 29_)
-Theory: Product thinking and map design.
+2. **Your map is a product; SQL & APIs** (_January 29_)  
+Theory: Product thinking and map design.  
 Practice: Introduction to SQL scripts within the Carto editor.  Views onto synced tables for real-time maps of stream flow data.  
 Assignment 2 issued.
 
-3. **Multiple tables** (_February 5_)
-Theory: TBD based on 
+3. **Multiple tables** (_February 5_)  
+Theory: TBD based on student interests.  
 Practice: Find points within polygons and multipolygons from multiple tables. Intermediate SQL queries relying on PostGIS.  
 Assignment 3 issued.
 
-4. **Analysis** (_February 12_)
-Theory: 
+4. **Analysis** (_February 12_)  
+Theory: TBD based on student interests.  
 Practice: Creating a simple map of points, simple Category maps with icons, drawing a circle from a point and radius, counting points in polygons. Assignment 4 issued.
 
-5. **Guest speakers** (_February 19_) Guest speakers from NASA/Earth Genome, Planet, Apple Maps, Mapbox. Final list TBD.
+5. **Guest speakers** (_February 19_)  
+Theory: Guest speakers from NASA/Earth Genome, Planet, Apple Maps, Mapbox. Final list TBD.  
+Practice: Answering questions about projects.
 
 6. **NO CLASS** (_February 26_)
 
