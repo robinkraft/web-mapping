@@ -16,19 +16,19 @@ This code repository serves as the course website for ENVM-680 Spring 2018, **We
 ----
 _This is a rough course outline that is subject to change as the semester advances.  The lectures and this sequence may be updated._
 
-1. **Basics** (_March 22_)   Getting started with guided tutorials.  Create static and dynamic maps.  Introduction to in-browser SQL scripts.  Logistics and planning.  
+1. **Basics** (_January 22_)   Getting started with guided tutorials.  Create static and dynamic maps.  Introduction to in-browser SQL scripts.  How web maps work.  Logistics and planning.  Assignment 1 issued.
 
-2. **SQL and APIs** (_March 29_)  Introduction to SQL scripts within the CartoDB editor.  Views onto synced tables for real-time maps of stream flow data.  Assignment 1 issued.
+2. **Your map is a product; SQL & APIs** (_January 29_)  Product thinking and map design. Introduction to SQL scripts within the Carto editor.  Views onto synced tables for real-time maps of stream flow data.  Assignment 2 issued.
 
-3. **Multiple tables** (_April 5_) Find points within polygons and multipolygons from multiple tables. Intermediate SQL queries relying on PostGIS.  Assignment 2 issued.
+3. **Multiple tables** (_April 5_) Find points within polygons and multipolygons from multiple tables. Intermediate SQL queries relying on PostGIS.  Assignment 3 issued.
 
-4. **Analysis** (_April 12_)  Creating a simple map of points, simple Category maps with icons, drawing a circle from a point and radius, counting points in polygons.
+4. **Analysis** (_April 12_)  Creating a simple map of points, simple Category maps with icons, drawing a circle from a point and radius, counting points in polygons. Assignment 4 issued.
 
-5. **PostGIS fluency** (_April 19_) More practice with spatial transform operations, with environmental applications.
+5. **Guest speakers** (_February 19_) Guest speakers from NASA/Earth Genome, Planet, Apple Maps, Mapbox. Final list TBD.
 
-6. **Styling maps and Open Street Map** (_April 26_) Import OSM data via the Overpass API and style maps based on table values.
+6. **NO CLASS** (_February 26_)
 
-7. **Sharing maps and spatial calculations** (_May 3_) Quick introduction to publishing maps on a Google Site and distance calculations.
+7. **Presenting final projects; special topics; wrap up** (_March 5_) Quick introduction to publishing maps on a Google Site and distance calculations.
 
 8. **Special topics in web mappong** (_May 10_) Student-chosen topics in web mapping.
 
