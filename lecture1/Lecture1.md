@@ -33,7 +33,7 @@ This lecture is a gentle introduction to Carto, a web mapping platform that we w
 
 ## Account Hygiene
 
-Go to `<username>.carto.com/dashboard/dashboard` to view all of your maps. Switch to data sets to view the data sets. If you start running out of space in your account, you can delete the maps and data sets from these views.
+Go to `<username>.carto.com/dashboard/` to view all of your maps. Switch to data sets to view the data sets. If you start running out of space in your account, you can delete the maps and data sets from these views.
 
 ## What do you want to learn?
 
