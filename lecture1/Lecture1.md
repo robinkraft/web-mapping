@@ -52,13 +52,3 @@ Here are a few options for the **topics**:
 2. Politics
 3. Journalism
 4. Finance/Economics
-
-## Assignment
-
-## Readings
-
-[Why map portals don't work](http://mapbrief.com/2013/02/05/why-map-portals-dont-work-part-i/)  
-[Paralysis of choice - Why map portals don't work part II](http://mapbrief.com/2013/02/07/paralysis-of-choice-why-map-portals-dont-work-part-ii/)  
-[The tyranny of requirements - Why map portals don't work part III](http://mapbrief.com/2013/02/11/the-tyranny-of-requirements-why-map-portals-dont-work-part-iii/)  
-[An iconography of confusion - Why map portals don't work part IV](http://mapbrief.com/2013/02/19/an-iconography-of-confusion-why-map-portals-dont-work-part-iv/)  
-[The waiting is the hardest part - Why map portals don't work part V](http://mapbrief.com/2013/02/21/the-waiting-is-the-hardest-part-why-map-portals-dont-work-part-v/)  
