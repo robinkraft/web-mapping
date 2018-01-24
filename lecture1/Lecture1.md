@@ -59,6 +59,11 @@ Here are a few options for the **topics**:
 `SELECT AVG(p_08) FROM nh_final`  
 `SELECT * FROM nh_final WHERE p_08 > 0.5`  
 
+## Maps from class
+[NYT map of the Santa Rosa fires](https://flowingdata.com/2017/10/16/map-of-santa-rosa-fires/)
+[Smoke map animation](https://twitter.com/stamen/status/918210924615426049)
+[Stories behind a line - migrant paths to Italy](http://www.storiesbehindaline.com/)
+
 ## Assignment
 For a topic that interests you, find relevant data and make a map in Carto that tells a particular story for a particular audience. You should style your map as appropriate. For example you could use the heatmap style (points), or multi-colored choropleth (polygons), or create an animation. Then write SQL queries to describe key columns in the data set - get the minimum, maximum, and average.
 
