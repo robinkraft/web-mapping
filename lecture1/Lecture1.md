@@ -64,6 +64,14 @@ Here are a few options for the **topics**:
 * [Smoke map animation](https://twitter.com/stamen/status/918210924615426049)
 * [Stories behind a line - migrant paths to Italy](http://www.storiesbehindaline.com/)
 
+## Readings for week 2
+
+[Why map portals don't work](http://mapbrief.com/2013/02/05/why-map-portals-dont-work-part-i/)  
+[Paralysis of choice - Why map portals don't work part II](http://mapbrief.com/2013/02/07/paralysis-of-choice-why-map-portals-dont-work-part-ii/)  
+[The tyranny of requirements - Why map portals don't work part III](http://mapbrief.com/2013/02/11/the-tyranny-of-requirements-why-map-portals-dont-work-part-iii/)  
+[An iconography of confusion - Why map portals don't work part IV](http://mapbrief.com/2013/02/19/an-iconography-of-confusion-why-map-portals-dont-work-part-iv/)  
+[The waiting is the hardest part - Why map portals don't work part V](http://mapbrief.com/2013/02/21/the-waiting-is-the-hardest-part-why-map-portals-dont-work-part-v/)  
+
 ## Assignment
 For a topic that interests you, find relevant data and make a map in Carto that tells a particular story for a particular audience. You should style your map as appropriate. For example you could use the heatmap style (points), or multi-colored choropleth (polygons), or create an animation. Then write SQL queries to describe key columns in the data set - get the minimum, maximum, and average.
 
@@ -73,11 +81,3 @@ Publish your map, and use Canvas to submit the URL along with answers to the fol
 * What story are you trying to tell? Or what do you want your user to be able to learn from your map?
 * Who is one person in that audience that you could ask for feedback. Why did you choose them? If you can, get their feedback on the map and include it here.
 * For one column of your choosing, what are the minimum, maximum, and average values for that column? Include your SQL queries in your response [This page may be helpful](https://www.postgresql.org/docs/8.0/static/functions-aggregate.html).
- 
-## Readings
-
-[Why map portals don't work](http://mapbrief.com/2013/02/05/why-map-portals-dont-work-part-i/)  
-[Paralysis of choice - Why map portals don't work part II](http://mapbrief.com/2013/02/07/paralysis-of-choice-why-map-portals-dont-work-part-ii/)  
-[The tyranny of requirements - Why map portals don't work part III](http://mapbrief.com/2013/02/11/the-tyranny-of-requirements-why-map-portals-dont-work-part-iii/)  
-[An iconography of confusion - Why map portals don't work part IV](http://mapbrief.com/2013/02/19/an-iconography-of-confusion-why-map-portals-dont-work-part-iv/)  
-[The waiting is the hardest part - Why map portals don't work part V](http://mapbrief.com/2013/02/21/the-waiting-is-the-hardest-part-why-map-portals-dont-work-part-v/)  
