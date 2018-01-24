@@ -62,11 +62,11 @@ Here are a few options for the **topics**:
 ## Assignment
 For a topic that interests you, find relevant data and make a map in Carto that tells a particular story for a particular audience. You should style your map as appropriate. For example you could use the heatmap style (points), or multi-colored choropleth (polygons), or create an animation. Then write SQL queries to describe key columns in the data set - get the minimum, maximum, and average.
 
-Answer the following questions:
+Publish your map, and use Canvas to submit the URL along with answers to the following questions:
 * What is in this data set, and why did you choose it?
 * Who is your audience?
 * What story are you trying to tell? Or what do you want your user to be able to learn from your map?
-* Who is one person in that audience that you could ask for feedback. If you can, get their feedback on the map and include it here.
+* Who is one person in that audience that you could ask for feedback. Why did you choose them? If you can, get their feedback on the map and include it here.
 * For one column of your choosing, what are the minimum, maximum, and average values for that column? Include your SQL queries in your response [This page may be helpful](https://www.postgresql.org/docs/8.0/static/functions-aggregate.html).
  
 ## Readings
