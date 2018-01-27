@@ -1,4 +1,6 @@
-This lecture is a gentle introduction to Carto, a web mapping platform that we will rely on for this course. We will first offer a few examples of what we can do with this web mapping platform, accessing the examples through this GitHub repository. We will then focus on a particular application: mapping election results for New Hampshire.  Finally, we will discuss the interests of the class, both topical and methodological.  Web mapping is a broad topic which could encompass data science, programming, journalism, design, and many other disciplines across many different topic areas.  We will narrow in on the minimally sufficient set of topics to make the course as broadly interesting as possible.
+[Go here for slides](https://docs.google.com/presentation/d/1tOZQVTZCP1eDgXEh1isQjrQF01DRNgKyvKVT9UPRlJM/edit) for the "theory" portion of class.
+
+This is a gentle introduction to Carto, a web mapping platform that we will rely on for this course. We will first offer a few examples of what we can do with this web mapping platform, accessing the examples through this GitHub repository. We will then focus on a particular application: mapping election results for New Hampshire.  Finally, we will discuss the interests of the class, both topical and methodological.  Web mapping is a broad topic which could encompass data science, programming, journalism, design, and many other disciplines across many different topic areas.  We will narrow in on the minimally sufficient set of topics to make the course as broadly interesting as possible.
 
 ## Interesting applications
 
@@ -63,6 +65,9 @@ Here are a few options for the **topics**:
 * [NYT map of the Santa Rosa fires](https://flowingdata.com/2017/10/16/map-of-santa-rosa-fires/)
 * [Smoke map animation](https://twitter.com/stamen/status/918210924615426049)
 * [Stories behind a line - migrant paths to Italy](http://www.storiesbehindaline.com/)
+
+## Slides from class
+[Slides in Google Docs](https://docs.google.com/presentation/d/1tOZQVTZCP1eDgXEh1isQjrQF01DRNgKyvKVT9UPRlJM/edit)
 
 ## Readings for week 2
 
