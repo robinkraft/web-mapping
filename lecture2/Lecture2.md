@@ -223,7 +223,11 @@ Once you have your map, set the style for the points. Choose a color scheme usin
 
 2. Where were the five closest earthquakes to USF in the past 30 days? Submit the SQL query and a screenshot of the map preview.
 
-3. Write a product brief for your final project. Include answers to the following questions:
+3. Write a product brief for your final project. In a nutshell, you should be able to fill in this sentence (replacing `product` with `map`):
+
+[![](whatisproduct.png)](https://medium.com/@jaf_designer/why-product-thinking-is-the-next-big-thing-in-ux-design-ee7de959f3fe)
+
+Include answers to the following questions:
 
 * What do you want your map to be about?  
 * What kinds of data could help you make this map?  
