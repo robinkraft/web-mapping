@@ -178,7 +178,7 @@ PostGIS will return measurement in the same units as the input projection. Suppo
 
 You can measure distances (and make many other measurements in PostGIS) using meter units if you run the measurements with data on a globe. So we need to project `the_geom` and our point to PostGIS geography type. We can do this by appending `::geography` to both of them in the function call, as below. Notice that we need to divide the value returned by `ST_Distance()` by 1000 to go from meters to kilometers.
 
-Let's calculate distance to USF for each row in the table.
+Let's calculate distance to USF for each row in the table. We'll use the original data set - not the copy - so that we retain the daily updates.
 
 ```sql
 SELECT
@@ -187,12 +187,14 @@ SELECT
     the_geom::geography, 
     CDB_LatLng(37.7833,-122.4167)
   ) / 1000 AS dist
-FROM realstx_copy
+FROM realstx
 ```
 
 ## Distance map
 
 Let's make a map from this view of the table. With the last query still active, select `Create Map`. This creates a new map based on the result of that query. Because we included `*` in the `SELECT` statement, the special column `the_geom_webmercator` is being used to create the map.
+
+*As mentioned above, this map remains connected to the original data set, which is updated daily. The SQL view with `dist` is calculated on the fly as you browse the map.*
 
 Once you have your map, set the style for the points. Choose a nice color scheme using the `by value` option for the `dist` column. I think rainbow is nice :) Add a legend based on the `dist` column.
 
