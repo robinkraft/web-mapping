@@ -215,5 +215,5 @@ FROM realstx
 * What kinds of data could help you make this map?  
 * Have you found the data sets you need? What are they?  
 * Who is your audience?  
-* What do you want your audience to learn?  
+* What do you want your audience to learn? What story are you trying to tell?  
 * What kinds of SQL queries - spatial or regular - might you need to make your map?  
