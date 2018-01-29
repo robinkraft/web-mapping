@@ -1,4 +1,4 @@
-#Final Project
+# Final Project
 
 **Due date: March 5 by 5pm. Be prepared to present your project in class.**
 
