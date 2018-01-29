@@ -116,7 +116,11 @@ WHERE huc = '01010001'
 
 * Where are these stations? How many are there? (Hint: use the `Preview` button)
 
-Let's do an GROUP BY aggregation, to see which watershed has the most stations.
+### GROUP BY
+A common operation in data science is to collapse tabular data into group averages, counts, minimums, maximums, and other reduction operations. What is the largest earthquake by country? How many airports are in each state? We group these events by a shared attribute, whether text (e.g. country name) or geographic entities (e.g. country boundary).
+
+Let's do an GROUP BY aggregation to see which watershed has the most stations.
+
 
 ```sql
 SELECT huc, count(*)
@@ -198,6 +202,16 @@ SELECT
   ) / 1000 AS dist
 FROM realstx
 ```
+
+## Distance map
+
+Let's make a map from this view of the table. With the last query still active, select `Create Map`. This creates a new map based on the result of that query. Because we included `*` in the `SELECT` statement, the special column `the_geom_webmercator` is being used to create the map.
+
+*As mentioned above, this map remains connected to the original data set, which is updated daily. The SQL view with `dist` is calculated on the fly as you browse the map.*
+
+Once you have your map, set the style for the points. Choose a color scheme using the `by value` option for the `dist` column. Add a legend based on the `dist` column.
+
+[![](rainbowmap.png)](https://robin-test.carto.com/builder/f8e77e1b-d24e-4ec4-a4b9-fbef59098393/embed)
 
 ## Assignment
 
