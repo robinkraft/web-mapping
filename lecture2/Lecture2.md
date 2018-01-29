@@ -12,13 +12,13 @@ We will be working with the [USGS stream guage data](http://waterdata.usgs.gov/n
 
 From the Carto data set dashboard, connect the `realstx` dataset, *Realtime US streamflow stations*, which contains streamflow information of over 4,000 stream gage stations.  Click **New dataset**, then use the URL for `realstx_shp.tgz` [on this page](https://water.usgs.gov/GIS/metadata/usgswrd/XML/realstx.xml#stdorder). Set up daily syncing.
 
-Carto has another copy of this data set that we can query using URLs:
+Carto has another copy of this data set that we can query using URLs. Here's a sample query:
 
 [`https://common-data.carto.com/api/v2/sql?q=select+*+from+realstx+limit+10`](https://common-data.carto.com/api/v2/sql?q=select+*+from+realstx+limit+10)
 
 Examine this URL and the embedded SQL query. Copy and paste it into a new browser tab.
 
-* What happens? Can you change a parameter in the URL and get different results? Add `&format=shp` to the end of the URL. What happens?
+* What happens? How many records are there? Can you change a parameter in the URL and get different results? Add `&format=shp` to the end of the URL. What happens?
 
 Visit the [USGS page](http://waterdata.usgs.gov/nwis/rt) to get a sense of the variable meanings.  Specifically, what is a [percentile](http://help.waterdata.usgs.gov/faq/surface-water/what-is-a-percentile?searchterm=percentile)?  What is gage height, also known as [stage](http://help.waterdata.usgs.gov/faq/surface-water/how-to-interpret-gage-height-and-streamflow-values)?
 
@@ -82,7 +82,7 @@ Let's explore the `flow` column a bit more.
 FROM realstx_copy
 ```
 
-* What is the median flow value? What does this mean?
+* What is the median flow value? What is the significance of this?
 
 ```sql
 SELECT PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY flow) AS median
@@ -196,9 +196,9 @@ Let's make a map from this view of the table. With the last query still active, 
 
 *As mentioned above, this map remains connected to the original data set, which is updated daily. The SQL view with `dist` is calculated on the fly as you browse the map.*
 
-Once you have your map, set the style for the points. Choose a nice color scheme using the `by value` option for the `dist` column. I think rainbow is nice :) Add a legend based on the `dist` column.
+Once you have your map, set the style for the points. Choose a color scheme using the `by value` option for the `dist` column. Add a legend based on the `dist` column.
 
-![](rainbowmap.png)
+<iframe width="100%" height="520" frameborder="0" src="https://robin-test.carto.com/builder/f8e77e1b-d24e-4ec4-a4b9-fbef59098393/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 ## Assignment
 
