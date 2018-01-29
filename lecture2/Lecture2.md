@@ -196,7 +196,7 @@ Let's make a map from this view of the table. With the last query still active, 
 
 Once you have your map, set the style for the points. Choose a nice color scheme using the `by value` option for the `dist` column. I think rainbow is nice :) Add a legend based on the `dist` column.
 
-![](rainbow_map.png)
+![](rainbow map.png)
 
 ## Assignment
 
