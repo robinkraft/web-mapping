@@ -1,4 +1,6 @@
-The objective of this lecture is to learn the basics of SQL (structured query language) through the Carto editor.  Carto is built on a database called PostgreSQL.  SQL is the languaged used to interact with the database, which is particularly well-suited for GIS because it is a *relational* database. 
+[Lecture slides](https://docs.google.com/presentation/d/1-YvZtlRoEGE832ZhSwgchScLp0WuLXFxUcpfZfZvnEE/edit#slide=id.p)
+
+The objective of this tutorial is to learn the basics of SQL (structured query language) through the Carto editor.  Carto is built on a database called PostgreSQL.  SQL is the languaged used to interact with the database, which is particularly well-suited for GIS because it is a *relational* database. 
 
 A relational database stores tabular data (rows and columns) with links or relations easily accessible.  This way, data can be accessed and reassembled without having to reorganize the stored tables.  There is a special database extender for PostgreSQL called PostGIS that makes it easier to make GIS-based queries to the vanilla relational database. 
 
@@ -6,7 +8,7 @@ For example, the concept of *closeness* is a location-based relational query.  P
 
 **The Carto editor simplifies the process of making web-based SQL queries to a PostgreSQL relational database, with the spatial database extender, PostGIS.**
 
-We will be working with the [USGS stream guage data](http://waterdata.usgs.gov/nwis/rt) in today's lecture.  
+We will be working with the [USGS stream guage data](http://waterdata.usgs.gov/nwis/rt) in today's tutorial.  
 
 From the Carto data set dashboard, connect the `realstx` dataset, *Realtime US streamflow stations*, which contains streamflow information of over 4,000 stream gage stations.  Click **New dataset**, then use the URL for `realstx_shp.tgz` [on this page](https://water.usgs.gov/GIS/metadata/usgswrd/XML/realstx.xml#stdorder). Set up daily syncing.
 
