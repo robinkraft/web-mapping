@@ -1,3 +1,58 @@
+# UNDER CONSTRUCTION
+
+ and [Natural Earth's state/province boundaries](http://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-1-states-provinces/) 
+
+
+Copy the URL for the states/provinces data from Natural Earth [on this page](http://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-1-states-provinces/), and connect the data set to Carto. We'll use this later.
+
+
+
+
+## Spatial queries
+PostGIS supports [an extensive set](https://postgis.net/docs/manual-2.4/reference.html#Spatial_Relationships_Measurements) of queries around spatial relationships and processing. For example:
+
+* ST_Intersects (true/false), ST_Intersection (returns the intersection geometry)
+* ST_Within (true/false)
+* ST_Length
+* ST_Touches (true/false)
+
+Let's use some of these to make a map of stream station count by state using the Natural Earth data.
+
+Start by doing a spatial intersection, to get the state/province each station is in.
+
+```sql
+SELECT stream.staname, prov.gn_name
+FROM realstx AS stream, ne_50m_admin_1_states_provinces AS prov
+WHERE ST_Intersects(stream.the_geom, prov.the_geom)
+```
+
+Now get aggregate statistics for each state.
+
+* How many stations are there in California? Which state has the most stations?
+
+```sql
+SELECT prov.gn_name, count(*)
+FROM realstx AS stream, ne_50m_admin_1_states_provinces AS prov
+WHERE ST_Intersects(stream.the_geom, prov.the_geom)
+	AND prov.gn_name = 'California'
+GROUP BY prov.gn_name
+```
+
+Create a map of the number of stations by state. Color each polygon by the station count, and add labels and a legend.
+
+```sql
+SELECT prov.the_geom_webmercator, prov.cartodb_id, prov.gn_name, count(*),
+FROM realstx AS stream, ne_50m_admin_1_states_provinces AS prov
+WHERE ST_Intersects(stream.the_geom, prov.the_geom)
+GROUP BY prov.the_geom_webmercator, prov.cartodb_id, prov.gn_name
+```
+
+![](stationmap.png)
+
+FYI `cartodb_id` is not strictly necessary, but it is if you want an interactive map. Carto uses it to support popups and whatnot.
+
+Also, if you're using a `GROUP BY` aggregator, all of the columns in the output (aside from the aggregation like `COUNT`) must be included as part of the `GROUP BY` statement. This is why `the_geom_webmercator`, `cartodb_id`, and `gn_name` appear in the `GROUP BY` clause.
+
 We will review and extend our fluency in SQL.  We will use the readily available data through the data library, and then, next, we will incorporate external data sources.  First, though, here are the answers to the assignment:
 
 ### Assignment answers
