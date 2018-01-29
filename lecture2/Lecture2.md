@@ -8,9 +8,9 @@ For example, the concept of *closeness* is a location-based relational query.  P
 
 We will be working with the [USGS stream guage data](http://waterdata.usgs.gov/nwis/rt) in today's lecture.  
 
-### SQL basics
-
 From the Carto data set dashboard, connect the `realstx` dataset, *Realtime US streamflow stations*, which contains streamflow information of over 4,000 stream gage stations.  Click **New dataset**, then use the URL for `realstx_shp.tgz` [on this page](https://water.usgs.gov/GIS/metadata/usgswrd/XML/realstx.xml#stdorder). Set up daily syncing.
+
+### SQL basics
 
 Carto has another copy of this data set that we can query using URLs. Here's a sample query:
 
@@ -114,7 +114,16 @@ FROM realstx_copy
 WHERE huc = '01010001'
 ```
 
-* Where are these stations? (Hint: use the `Preview` button)
+* Where are these stations? How many are there? (Hint: use the `Preview` button)
+
+Let's do an GROUP BY aggregation, to see which watershed has the most stations.
+
+```sql
+SELECT huc, count(*)
+FROM realstx_copy
+GROUP BY huc
+ORDER BY count DESC
+```
 
 Preview a map of the ten measurements with the highest gage height.
 
@@ -190,31 +199,21 @@ SELECT
 FROM realstx
 ```
 
-## Distance map
-
-Let's make a map from this view of the table. With the last query still active, select `Create Map`. This creates a new map based on the result of that query. Because we included `*` in the `SELECT` statement, the special column `the_geom_webmercator` is being used to create the map.
-
-*As mentioned above, this map remains connected to the original data set, which is updated daily. The SQL view with `dist` is calculated on the fly as you browse the map.*
-
-Once you have your map, set the style for the points. Choose a color scheme using the `by value` option for the `dist` column. Add a legend based on the `dist` column.
-
-<iframe width="100%" height="520" frameborder="0" src="https://robin-test.carto.com/builder/f8e77e1b-d24e-4ec4-a4b9-fbef59098393/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
 ## Assignment
 
-1. Create a map of earthquakes over the past 30 days, using the [USGS earthquake data](http://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php).  Note that the objective is to communicate the spatial information, so think carefully about the design considerations.
+1. Create a map of earthquakes over the past 30 days, using the [USGS earthquake data](http://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php).  Note that the objective is to communicate the spatial information, so think carefully about the design.
 
-    - Color the earthquake points based on distance from USF's campus `{latitude: 37.7833, 'longitude': -122.4167}`.  Please think about the colors and number of bins that would make it easy to read the map. 
-    - Style the info pop-up.  Add information to the pop-up that actually informs the user.
-    - Post this map.  Ensure that it is publicly viewable.
+    - Size the earthquake points according to magnitude, and color them based on distance from USF's campus `{latitude: 37.7833, 'longitude': -122.4167}`.
+    - Style the info pop-up. Add information to the pop-up that you think would be useful to a user.
+    - Publish the map and post the URL to Canvas. Make sure it's publicly available.
 
-2. Where were the five closest earthquakes to USF in the past 30 days?  Submit the URL, similar to the one in the previous section Send a URL to return this information in JSON format.
+2. Where were the five closest earthquakes to USF in the past 30 days? Submit the SQL query and a screenshot of the map preview.
 
-    - *Hint*: The first part of the response should look like this:
-    
-    ```bash
-    https://<your_user_name>.carto.com/api/v2/sql
-    ```
+3. Write a product brief for your final project. Include answers to the following questions:
 
-*Much of this lecture is graciously borrowed, stolen, or extended from the Carto map academy course.*
-
+* What do you want your map to be about?  
+* What kinds of data could help you make this map?  
+* Have you found the data sets you need? What are they?  
+* Who is your audience?  
+* What do you want your audience to learn?  
+* What kinds of SQL queries - spatial or regular - might you need to make your map?  
