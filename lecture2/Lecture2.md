@@ -231,9 +231,9 @@ Once you have your map, set the style for the points. Choose a color scheme usin
 
 Include answers to the following questions:
 
-* What do you want your map to be about?  
+* What do you want your map to be about? What problem will it solve?  
 * What kinds of data could help you make this map?  
 * Have you found the data sets you need? What are they?  
-* Who is your audience?  
+* Who is your audience? Do they have the problem you're trying to solve? 
 * What do you want your audience to learn? What story are you trying to tell?  
 * What kinds of SQL queries - spatial or regular - might you need to make your map?  
