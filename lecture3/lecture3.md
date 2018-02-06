@@ -158,7 +158,7 @@ Submit your answers by following the template below:
 
 * Find all data sets you will need for your project, and make an initial version of the map. Submit the URL.
 	* Consider using some of the spatial query and styling techniques we used in class this week.
-	* If you have trouble finding data, ask for help in the discussion board or via email. If you can't find the data, you may need to tweak your project definition.
+	* If you have trouble finding data, ask for help in the discussion board or via email. If you can't find the data you need, you may need to adjust your project definition.
 * Give your map to three people in your target audience who have the problem you're trying to solve. Watch them use the map, and take notes!
 	* What parts of your map did they click on or view?  
 	* Was the map or data confusing?  
