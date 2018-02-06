@@ -138,7 +138,7 @@ Using the Property Land Use Tax lot Output (PLUTO) data table entitled `mnmapplu
 	* Choose a color ramp with plenty of contrast - there's a lot of detail that gets lost if the colors are too similar.
 	* Do not include outlines for the polygons.
   3. How many lots in Manhattan are owned by New York University? What is the average number of floors of those buildings?
-  4. BONUS QUESTION: Write a query that calculates the average distance between each lot and the closest public space (defined as `landuse = '09'`). Only calculate this for those tax lots with `cartodb_id < 50`. This is hard.  Please submit your best attempt at a query if you are unable to figure it out exactly. You might try `[ST_ClosestPoint](https://postgis.net/docs/ST_ClosestPoint.html)`.
+  4. BONUS QUESTION: Write a query that calculates the average distance between each lot and the closest public space (defined as `landuse = '09'`). Only calculate this for those tax lots with `cartodb_id < 50`. This is hard.  Please submit your best attempt at a query if you are unable to figure it out exactly. You might try [`ST_ClosestPoint`](https://postgis.net/docs/ST_ClosestPoint.html).
   
 Submit your answers by following the template below:
 
