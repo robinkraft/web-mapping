@@ -117,6 +117,16 @@ So [let's browse the map](https://robinkraft.carto.com/builder/3f1f3afa-ab5b-4cb
 	* When you zoom in, you see the burned area in false-color satellite imagery.
 	* At z14 or higher, the burned parks and fire perimeters are nearly transparent, revealing the false-color satellite imagery.
 
+```sql
+WITH intersection AS
+	(SELECT cpad.park_name, ST_Union(ST_Intersection(cpad.the_geom_webmercator, fires.the_geom_webmercator)) AS the_geom_webmercator
+	 FROM cpad, fires
+	 GROUP BY cpad.park_name)
+SELECT *, ROUND(ST_Area(the_geom_webmercator)::numeric / 1000 / 1000, 1) AS area_affected
+FROM intersection
+WHERE ST_Area(the_geom_webmercator) > 0
+```
+
 #### Steps needed to recreate the map (rough order)
 
 1. Upload the CPAD and fires data to Carto.
