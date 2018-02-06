@@ -83,7 +83,9 @@ WHERE states.name = 'California'
 * Use a satellite basemap and a custom CartoCSS style to make the lake go semi-transparent at z11 and higher: `#layer[zoom < 11]` and `#layer[zoom >= 11]`.
 
 
-### Making the fire map
+### Group project - recreating the fire map
+
+Get into groups of three.
 
 ##### Data sets - upload these directly to to Carto
 * [California Protected Areas Database](http://www.calands.org/) (to save time, [just upload it from this URL](https://www.dropbox.com/s/7nro7x8qc78tihh/CPAD_2017a.zip?dl=1)).
@@ -130,7 +132,7 @@ So [let's browse the map](https://robinkraft.carto.com/builder/3f1f3afa-ab5b-4cb
 
 Using the Property Land Use Tax lot Output (PLUTO) data table entitled `mnmappluto` in the CartoDB data library, along with the associated [data dictionary](http://www1.nyc.gov/assets/planning/download/pdf/data-maps/open-data/pluto_datadictionary.pdf), answer the following questions:
 
-  1. How many tax lots are there in Manhattan? How much area do these lots cover?
+  1. How many tax lots are there in Manhattan? How much area do these lots cover (sq. km.)?
   2. Show the growth of the city.  Post a map that colors the tax properties by the year they were built in roughly 20 year increments (from 1900 through the present).
 	* Include a hover popup that shows the year built.
 	* Choose a color ramp with plenty of contrast - there's a lot of detail that gets lost if the colors are too similar.
@@ -142,7 +144,7 @@ Submit your answers by following the template below:
 
 **Question 1**
   1. Number of tax lots: X
-  2. Total area: X
+  2. Total area: X sq. km.
 
 **Question 2**
   1. Web map link: URL
