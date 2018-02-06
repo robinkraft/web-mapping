@@ -99,7 +99,7 @@ Get into groups of three.
 
 Take a look at both data sets on a map, just to get a feel for them.
 
-You will also need the Santa Rosa fire map's [static maptile URL](https://api.mapbox.com/styles/v1/robinkraft/cj8nn4lvp7yoq2ro1klhjltw8/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoicm9iaW5rcmFmdCIsImEiOiJQLUp2RU9NIn0.B20c6fiHx0NCgfSOE3HYbw), along with this access token:  `pk.eyJ1Ijoicm9iaW5rcmFmdCIsImEiOiJQLUp2RU9NIn0.B20c6fiHx0NCgfSOE3HYbw`)
+You will also need the Santa Rosa fire map's [static maptile URL](https://api.mapbox.com/styles/v1/robinkraft/cj8nn4lvp7yoq2ro1klhjltw8/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoicm9iaW5rcmFmdCIsImEiOiJQLUp2RU9NIn0.B20c6fiHx0NCgfSOE3HYbw).
 
 So [let's browse the map](https://robinkraft.carto.com/builder/3f1f3afa-ab5b-4cb3-83d3-d7d6272cc894/embed) we're trying to recreate. Features of note include:
 
