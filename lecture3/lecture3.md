@@ -137,8 +137,8 @@ Using the Property Land Use Tax lot Output (PLUTO) data table entitled `mnmapplu
 	* Include a hover popup that shows the year built.
 	* Choose a color ramp with plenty of contrast - there's a lot of detail that gets lost if the colors are too similar.
 	* Do not include outlines for the polygons.
-  4. How many lots in Manhattan are owned by New York University? What is the average number of floors of those buildings?
-  5. Write a query that calculates the average distance between each lot and the closest public space (defined as `landuse = '09'`). Only calculate this for those tax lots with `cartodb_id < 50`. This is hard.  Please submit your best attempt at a query if you are unable to figure it out exactly.
+  3. How many lots in Manhattan are owned by New York University? What is the average number of floors of those buildings?
+  4. Write a query that calculates the average distance between each lot and the closest public space (defined as `landuse = '09'`). Only calculate this for those tax lots with `cartodb_id < 50`. This is hard.  Please submit your best attempt at a query if you are unable to figure it out exactly.
   
 Submit your answers by following the template below:
 
@@ -148,11 +148,13 @@ Submit your answers by following the template below:
 
 **Question 2**
   1. Web map link: URL
-  2. Lots owned by NYU: X
-  3. Avg. number of floors: X
 
 **Question 3**
-  1. Query: X
+  1. Lots owned by NYU: X
+  2. Avg. number of floors: X
+
+**Question 4**
+1. Query: X
   
 ### Part 2
 
