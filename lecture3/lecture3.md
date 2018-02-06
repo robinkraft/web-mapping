@@ -82,6 +82,12 @@ WHERE states.name = 'California'
 * Add area information to a custom HTML popup that says "Lake Tahoe: X sq. km in California".
 * Use a satellite basemap and a custom CartoCSS style to make the lake go semi-transparent at z11 and higher: `#layer[zoom < 11]` and `#layer[zoom >= 11]`.
 
+```sql
+SELECT lakes.cartodb_id, lakes.name, lakes.the_geom_webmercator, ROUND(ST_Area(ST_Intersection(lakes.the_geom_webmercator, states.the_geom_webmercator))::numeric / 1000 / 1000, 2) AS area
+FROM ne_10m_lakes as lakes, ne_110m_admin_1_states_provinces AS states
+WHERE states.name = 'California'
+	   AND lakes.name = 'Lake Tahoe'
+```
 
 ### Group project - recreating the fire map
 
