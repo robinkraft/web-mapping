@@ -28,17 +28,15 @@ Theory: Product thinking and map design.
 Practice: Introduction to SQL scripts within the Carto editor.  Views onto synced tables for real-time maps of stream flow data.  
 Assignment 2 issued.
 
-3. **Multiple tables** (_February 5_)  
-Theory: TBD based on student interests.  
-Practice: Find points within polygons and multipolygons from multiple tables. Intermediate SQL queries relying on PostGIS.  
+3. **Spatial joins; advanced styling** (_February 5_)  
+Practice: Find points within polygons; get the intersection of polygons from multiple tables. Recreate a map using custom popups and CartoCSS styling.
 Assignment 3 issued.
 
 4. **Analysis** (_February 12_)  
-Theory: TBD based on student interests.  
-Practice: Creating a simple map of points, simple Category maps with icons, drawing a circle from a point and radius, counting points in polygons. Assignment 4 issued.
+Practice: 
 
 5. **Guest speakers** (_February 19_)  
-Theory: Guest speakers from NASA/Earth Genome, Planet, Apple Maps, Mapbox. Final list TBD.  
+Theory: Guest speakers from NASA/Earth Genome, Planet, Apple, Mapbox. Final list TBD.  
 Practice: Answering questions about projects.
 
 6. **NO CLASS** (_February 26_)
