@@ -1,4 +1,4 @@
-This code repository serves as the course website for ENVM-680 Spring 2018, **Web-based geospatial analysis**.  The class will provide students with a working knowledge of web-based mapping for a range of applications.  We will rely on the [Carto](http://www.carto.com) platform.  Students will have the opportunity to create maps and learn about programmatic ways to query large-scale geospatial data, embed maps in blogs, and other modern techniques for analyzing and sharing geospatial information.  
+This code repository serves as the course website for ENVM-680 Spring 2018, **Web-based geospatial analysis**.  The class will provide students with a working knowledge of web-based mapping for a range of applications.  We will rely on the [Carto](http://www.carto.com) platform.  Students will have the opportunity to create maps and learn about programmatic ways to query/analyze geospatial data, embed maps in blogs, and other modern techniques for analyzing and sharing geospatial information.  
 
 #### Course information
 ----
@@ -11,7 +11,7 @@ This code repository serves as the course website for ENVM-680 Spring 2018, **We
 - **Coding**: You are not expected to be able to write code, but it will help. We will be writing SQL statements and tweaking Javascript in class.
 - **Evaluation**: A letter grade will be assessed at the end of the course, based on course participation (10%), four weekly assignments (60%), and a final project (30%).
 - **Assignments**: Course readings and exercises will be assigned after the associated lecture.
-- **Final project**: Blogpost with a working web map on Github Pages. Tell a story, or help someone tell theirs.
+- **Final project**: Write a blogpost with a working web map on Github Pages. Tell a story, or help someone tell theirs. Read [finalproject.md](finalproject.md) for details.
 - **Academic honesty**: The University of San Francisco expects the highest standards of academic honesty and integrity. This precludes engaging in, causing, or benefiting from any aspects of cheating on assignments or examinations, plagiarism (intentionally or knowingly representing the words or ideas of another as one’s own in any academic exercise), forgery, multiple submissions of the same paper, or any other such activities are not in accord with professional ethics and behavior. Any assignment found not to be in the student's own words will be marked zero.
 
 #### Course sequence
