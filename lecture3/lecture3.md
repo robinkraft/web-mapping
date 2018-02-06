@@ -171,10 +171,10 @@ Submit your answers by following the template below:
 
 **If you need to change your project, adjust the product brief from last week as necessary and resubmit it this week.**
 
-Hints on user interviews:
+Tips for user interviews:
 
 * Don't explain what the map is beyond what you would put in the title of a map. That is, no more than "this is a map of parks burned in the Sonoma County wildfires", for example.
-* Don't tell them what they should get out of it. Ask indirect questions whose answers will tell you the answer whether they got anything out of your map.
+* Don't tell them what they should get out of it. Ask indirect questions whose answers will tell you the answer.
 * Do they have any suggestions for improving the map? <-- always ask this question at the end!
 * Don't ask whether they like the map.
 
