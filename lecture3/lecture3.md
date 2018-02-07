@@ -1,3 +1,5 @@
+[Lecture 3 slides](https://docs.google.com/presentation/d/10_dSeDeRiT_pwjKpMttTPDTdnoqfrWUYEiKquXy4bIw/edit?usp=sharing)
+
 Today we are going to [recreate this map](https://robinkraft.carto.com/builder/3f1f3afa-ab5b-4cb3-83d3-d7d6272cc894/embed), which shows California parks that burned during the fires up in Sonoma County.
 
 ![](burned_parks_map.jpg)
