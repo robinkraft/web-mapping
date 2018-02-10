@@ -161,18 +161,18 @@ Using the Property Land Use Tax lot Output (PLUTO) data table entitled `mnmapplu
 Submit your answers by following the template below:
 
 **Question 1**
-  1. Number of tax lots: X
-  2. Total area: X sq. km.
+  1. Number of tax lots: X (include your query)
+  2. Total area: X sq. km. (include your query)
 
 **Question 2**
   1. Web map link: URL
 
 **Question 3**
-  1. Lots owned by NYU: X
-  2. Avg. number of floors: X
+  1. Lots owned by NYU: X (include your query)
+  2. Avg. number of floors: X (include your query)
 
 **BONUS: Question 4**
-1. Query: X
+1. Average distance: X (include your query)
   
 ### Part 2
 
