@@ -23,7 +23,7 @@ You can go wild with structure so long as you tell a good story with your map(s)
 4. What conclusions can we draw from your analysis and map?
 
 **The how-to**
-3. What data sets did you use? Why? Link to the original sources.  
-4. What steps did you take to create the map? Include SQL queries, analyses, and design considerations.  
-5. What feedback did you get while making the map, and how did that change the map?  
-6. Do you have any reflections on the data, tools, or process of making your map?  
+1. What data sets did you use? Why? Link to the original sources.  
+2. What steps did you take to create the map? Include SQL queries, analyses, and design considerations.  
+3. What feedback did you get while making the map, and how did that change the map?  
+4. Do you have any reflections on the data, tools, or process of making your map?  
