@@ -16,8 +16,8 @@
 ### Structure
 You can go wild with structure so long as you tell a good story with your map(s) and include a "how I did it" section. But here's one way you could structure it:
 
-**The story**
-1. What are you writing about? Why does it matter? What are you trying to analyze?
+**The story** - context for the reader
+1. What are you writing about and mapping? Why does it matter? What are you trying to analyze?
 2. Who would be interested in this?
 3. How do your maps explain/illustrate whatever you're trying to get across to your audience?
 4. What conclusions can we draw from your analysis and map?
@@ -27,3 +27,5 @@ You can go wild with structure so long as you tell a good story with your map(s)
 2. What steps did you take to create the map? Include SQL queries, analyses, and design considerations.  
 3. What feedback did you get while making the map, and how did that change the map?  
 4. Do you have any reflections on the data, tools, or process of making your map?  
+
+The [L Train](https://carto.com/blog/looking-at-the-l/) and [housing affordability](https://nation.maps.arcgis.com/apps/Cascade/index.html?appid=de7f932e3a1d494f9c9d9a67fb0de646) stories are really great examples of how far you could go with this.
