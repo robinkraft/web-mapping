@@ -28,9 +28,12 @@ Week 4 - `WITH` statements and dead birds
 [Strava Fitness App Can Reveal Military Sites, Analysts Say](https://www.nytimes.com/2018/01/29/world/middleeast/strava-heat-map.html)
 ![](strava_whoops.png)
 
+[A Breathing Earth - a year's worth of vegetation, from space](http://www.datasketch.es/april/code/nadieh/)
+![](Breathing-Earth.gif)
+
 ## Sign up with Medium
 
-Go to [Medium.com](https://www.medium.com). Sign up. Publish one of your old maps. Boom.
+Go to [Medium.com](https://www.medium.com). Sign up. Publish one of your old maps ([instructions](https://medium.com/@andrewxhill/how-to-add-maps-to-a-medium-post-8e881f99c56d)). Boom.
 
 ## Assignment 3 - bonus question
 
