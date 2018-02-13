@@ -113,7 +113,7 @@ WITH lotdist AS
 		     MIN(ST_Distance(public.the_geom_webmercator,
 		     				 taxlots.the_geom_webmercator)) AS dist
 	 FROM public, taxlots
-	 GROUP BY taxlots.cartodb_id
+	 GROUP BY taxlots.cartodb_id)
 SELECT AVG(lotdist.dist)
 FROM lotdist
 ```
