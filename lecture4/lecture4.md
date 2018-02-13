@@ -283,7 +283,7 @@ Download [active fires](https://earthdata.nasa.gov/earth-observation-data/near-r
 
 To be clear, a county on one day should be treated differently than a county on another day.  You are looking for the ten county-days with the most fires. A county may be listed twice if it contained a lot of fires on two days. A day may be listed twice if two counties had a lot of fires on the same day.
 
-**HINT:** To make this work, you'll need to use `ST_Intersects` and `GROUP BY`, among other things we've seen in class.
+**HINT:** To make this work, you'll need to use `ST_Intersects` and `GROUP BY`, among other things we've seen in class. Also, you can get a [county data set here](https://www.dropbox.com/s/8ntu3ipczz95tls/cb_2013_cousub_500k.zip?dl=1).
 
 **BONUS:** Which states are those 10 counties in? Post the answer and your query.
 
