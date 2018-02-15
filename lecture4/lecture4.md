@@ -285,6 +285,15 @@ To be clear, a county on one day should be treated differently than a county on 
 
 **HINT:** To make this work, you'll need to use `ST_Intersects` and `GROUP BY`, among other things we've seen in class. Also, you can get a [county data set here](https://www.dropbox.com/s/8ntu3ipczz95tls/cb_2013_cousub_500k.zip?dl=1).
 
+You should get something that looks something like this (but with proper data - I made this up):
+| county  | date       | count |
+|---------|------------|-------|
+| Sonoma  | 2018-01-01 | 10    |
+| Sonoma  | 2018-01-02 | 9     |
+| Marin   | 2018-01-01 | 8     |
+| Sonoma  | 2018-01-05 | 7     |
+| Alameda | 2018-01-04 | 6     |
+
 **BONUS:** Which states are those 10 counties in? Post the answer and your query.
 
 **Question 2**  
