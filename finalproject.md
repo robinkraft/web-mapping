@@ -4,7 +4,7 @@
 
 **Keep in mind:  I will be entirely offline from February 26 to March 4**, and won't check email until the morning of March 5. So I won't be able to give you any last-minute help.
 
-**What:** Create **at least one map using two or more data sets** and Carto/PostGIS [spatial operators](http://postgis.org/docs/reference.html#Spatial_Relationships_Measurements) (e.g. ST_Within, ST_Intersection, etc.). Embed the map(s) inside a public blogpost about your topic and whatever your argument you're making about the topic using the map. **include a "how I did it" section** somewhere in the post:
+**What:** Create **at least one map using two or more data sets** and Carto/PostGIS [spatial operators](http://postgis.org/docs/reference.html#Spatial_Relationships_Measurements) (e.g. ST_Within, ST_Intersection, etc.). Embed the map(s) inside a public blogpost about your topic and whatever argument you're making about the topic using the map (see sample structure below). **Include a "how I did it" section** somewhere in the post:
 
 1. What data sets did you use? Did you have to create your own data? Why? Link to the original sources where possible.  
 2. What steps did you take to create the map? Include SQL queries, analyses, and design considerations.  
@@ -13,7 +13,7 @@
 
  I recommend using [Medium.com](https://www.medium.com) for your post - you can easily embed your map there ([instructions](https://medium.com/@andrewxhill/how-to-add-maps-to-a-medium-post-8e881f99c56d)).
 
-**Grading:** I will evaluate your map and blogpost based on the creativity and quality of the project and analysis, execution of the map visualization, and quality/detail of the writeup. Your post should be more than a paragraph or two, and should address the considerations below in essay form (i.e. not in a question/answer format). Think of this as a map-based essay that includes a methods section.
+**Grading:** **If you just post the bare minimum, you'll get 75% (22.5 of 30 points). Making the narrative interesting, where maps actually enhance the answer, will earn an exceptional grade.** I will evaluate your map and blogpost based on the creativity and quality of the project and analysis, execution of the map visualization, and quality/detail of the writeup. Your post should be more than a paragraph or two, and should address the considerations below in essay form (i.e. not in a question/answer format). Think of this as a map-based essay that includes a methods section.
 
 **Examples:**
 * [This is an excellent example](https://carto.com/blog/looking-at-the-l/) of a map-based essay from the former Chief Scientist at Carto.
