@@ -4,7 +4,7 @@
 
 **Keep in mind:  I will be entirely offline from February 26 to March 4**, and won't check email until the morning of March 5. So I won't be able to give you any last-minute help.
 
-**What:** Create **at least one map using two or more data sets** and Carto/PostGIS [spatial operators](http://postgis.org/docs/reference.html#Spatial_Relationships_Measurements) (e.g. ST_Within, ST_Intersection, etc.). Embed the map(s) inside a public blogpost. I recommend using [Medium.com](https://www.medium.com) - you can easily embed your map there ([instructions](https://medium.com/@andrewxhill/how-to-add-maps-to-a-medium-post-8e881f99c56d)).
+**What:** Create **at least one map using two or more data sets** and Carto/PostGIS [spatial operators](http://postgis.org/docs/reference.html#Spatial_Relationships_Measurements) (e.g. ST_Within, ST_Intersection, etc.). Embed the map(s) inside a public blogpost - **include a "how I did it" section**. I recommend using [Medium.com](https://www.medium.com) - you can easily embed your map there ([instructions](https://medium.com/@andrewxhill/how-to-add-maps-to-a-medium-post-8e881f99c56d)).
 
 **Grading:** I will evaluate your map and blogpost based on the creativity and quality of the project and analysis, execution of the map visualization, and quality/detail of the writeup. Your post should be more than a paragraph or two, and should address the considerations below in essay form (i.e. not in a question/answer format). Think of this as a map-based essay that includes a methods section.
 
