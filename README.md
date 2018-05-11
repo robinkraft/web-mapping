@@ -32,7 +32,7 @@ Assignment 2 issued.
 Practice: Find points within polygons; get the intersection of polygons from multiple tables. Recreate a map using custom popups and CartoCSS styling.
 Assignment 3 issued.
 
-4. **Practicing what you've learned** (_February 12_)  
+4. **WITH statements & practicing what you've learned** (_February 12_)  
 Practice: More advanced versions of everything from weeks 1-3.
 
 5. **Guest speakers** (_February 19_)  
